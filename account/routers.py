@@ -1,4 +1,4 @@
-from rest_framework.routers import DefaultRouter, Route, DynamicRoute
+from rest_framework.routers import DefaultRouter, DynamicRoute, Route
 
 
 def extend_detail_route(routes: list[Route | DynamicRoute]) -> Route:

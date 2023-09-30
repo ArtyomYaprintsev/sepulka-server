@@ -1,8 +1,7 @@
 from rest_framework.routers import DefaultRouter
 
 from account.routers import PersonalOnlyRouter
-from account.views import UserViewSet, UserPersonalViewSet
-
+from account.views import UserPersonalViewSet, UserViewSet
 
 router = DefaultRouter()
 router.register(r"", UserViewSet)

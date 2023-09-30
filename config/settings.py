@@ -45,7 +45,7 @@ INSTALLED_APPS = [
 
     # Local apps
     "account",
-    # "sepulka",
+    "sepulka",
 ]
 
 MIDDLEWARE = [

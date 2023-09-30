@@ -1,0 +1,30 @@
+# IDE
+.idea/
+.vscode/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+
+# Backup files
+*.bak 
+
+# Environment
+venv/
+venv.bak/ 
+
+# local
+.env
+media/
+backups/
+nginx/
+openapi-schema.yml
+
+# Dockerfile
+.dockerignore
+Dockerfile
+entrypoint.sh
+docker-compose.yml

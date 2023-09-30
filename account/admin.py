@@ -6,6 +6,12 @@ from django.utils.translation import gettext_lazy as _
 
 @admin.register(get_user_model())
 class UserAdmin(BaseUserAdmin):
+    """Extended `django.contrib.auth.admin.UserAdmin` model.
+
+    Removed `first_name` and `last_name` fields mentions.
+
+    """
+
     fieldsets = (
         (None, {"fields": ("username", "email", "password")}),
         (

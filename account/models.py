@@ -4,6 +4,14 @@ from django.utils.translation import gettext_lazy as _
 
 
 class User(AbstractUser):
+    """The user specified by the service conditions represented by this model.
+
+    The model is inherited from `django.contrib.auth.models.AbstractUser` model
+    without `first_name` and `last_name` fields. Provides additional `role` char
+    field with a choice from `RoleChoice` (`RoleChoice.FUFELNITSA` by default).
+
+    """
+
     first_name = None
     last_name = None
 

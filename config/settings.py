@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",
 
     # Local apps
-    # "account",
+    "account",
     # "sepulka",
 ]
 
@@ -136,7 +136,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Authentication
 # https://docs.djangoproject.com/en/4.2/topics/auth/customizing/
 
-# AUTH_USER_MODEL = "account.User"
+AUTH_USER_MODEL = "account.User"
 
 
 # Django REST Framework
